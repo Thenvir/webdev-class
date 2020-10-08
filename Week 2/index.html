@@ -1,0 +1,62 @@
+<html> 
+
+  <head>
+    <title> CSS </title>
+
+    <!-- By adding this html element in the head element, we can style our page -->
+    <style>
+      /* styles the body, aka the whole page*/
+      body {
+        /* Makes the background a dark grey color, and centers everything to the middle of the page */
+        background-color: #373a40; 
+        text-align: center;
+      }
+      /* Changes text color of all h2 elements to beige-yellow */
+      h2 {
+        color: #fadcaa;
+      }
+      /* Changes the color of all p elements to be white */
+      p {
+        color: white;
+      }
+      /* Makes all images scale down to 200px, so they're not massive */
+      img {
+        height: 200px;
+      }
+      /* looks through html code for something with "id=different-text" and styles it */
+      /* In this case, its the p element under the first image which says "coding doesn't have to be boring" */
+      /* By doing this, we're targetting a specific html element instead of all p elements  */
+      #different-text {
+        color: skyblue;
+        font-weight: 900;
+      }
+    
+    </style>
+  </head>
+
+  <body>
+    <!-- Another way of applying CSS to an element, called 'inline css' -->
+    <!-- We add the attribute 'style' and then say what we want to change -->
+    <h1  style="color: white" > Welcome to CSS Playground! </h1> 
+
+    <h2 style="color: #fadcaa"> 2020 </h2>
+    <h4 style="color: #fadcaa"> October </h4>
+    <h5 style="color: #fadcaa"> Seventh </h5>
+    <p>This is a good day to learn CSS. Its great. Without it, every site would look bad :( </p>
+
+    <!-- With CSS, we can make images be circular, by saying 'border-radius: 50%' -->
+    <img src="https://previews.123rf.com/images/lembergvector/lembergvector1611/lembergvector161100265/68694825-man-programmer-hands-working-on-his-pc-computer-coding-and-programming-head-monitor-view-vector-illu.jpg" style="border-radius: 50%">
+
+    <p id="different-text" > Coding doesn't have to be boring. </p>
+
+    <img src="https://www.thesprucecrafts.com/thmb/4krlR_ONU4EDXKbCb8FCWFkz--Y=/2121x1414/filters:fill(auto,1)/GettyImages-922707682-5b90467bc9e77c0025931eef.jpg">
+
+    <br>
+
+    <a href="https://www.metmuseum.org/" target="_blank" style="color: gold"> Click me! </a>
+
+    <p> CSS is one of the many ways that developers use their craft as a form of self-expression. </p>
+
+  </body>
+
+</html>
