@@ -33,6 +33,7 @@
 
 ## October 21 (Wednesday)
 - CSS advanced
+  - External CSS
   - Media Queries
 - Bootstrap
 
