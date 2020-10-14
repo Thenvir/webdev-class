@@ -24,6 +24,16 @@
 - Style Personal Site Project
 
 ## October 14 (Wednesday)
+- JS intro
+  - Connecting JS to html
+  - Data types
+  - Conditionals
+  - Functions
+  - Math library
+- Die Roller Project
+
+
+## October 21 (Wednesday)
 - Html advanced
   - Forms
   - Inputs
@@ -31,27 +41,19 @@
   - Divs
 - Login Page Project
 
-## October 21 (Wednesday)
+
+## October 28 (Wednesday)
 - CSS advanced
   - External CSS
   - Media Queries
 - Bootstrap
 
-## October 28 (Wednesday)
-- JS intro
-  - Connecting JS to html
-  - Data types
-  - Conditionals
-  - Loops
-  - String library (str.charAt(i))
-- Sentence Counter Project
 
 ## November 4 (Wednesday)
 - JS advanced
-  - Functions
   - Date library
-  - Math library
-- Die Roller Project
+  - String library (str.charAt(i)) 
+- Sentence Counter Project
 
 ## November 11 (Wednesday)
 - JS Local Storage
