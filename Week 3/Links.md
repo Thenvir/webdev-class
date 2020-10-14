@@ -11,6 +11,6 @@ https://forms.gle/1ZZDdKQv5gMgXJZy5
 
 
 ## Resources
-- IDE: https://repl.it/languages/html
+- ### IDE: https://repl.it/languages/html
 - JavaScript Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math  
 
