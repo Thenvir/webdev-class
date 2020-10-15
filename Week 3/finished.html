@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>repl.it</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Lobster', cursive;
+        font-weight: 200;
+        background-color: #01c5c4;
+        color: #f1e189;
+        text-align: center;
+      }
+      button {
+        font-family: 'Lobster', cursive;
+        text-align: center;
+        border-radius: 50px;
+        outline: none;
+        width: 50%;
+        font-size: 2rem;
+        margin: 3% auto 0 auto;
+        padding: 3%;
+        background-color: #f39233;
+        color: white;
+      }
+      button:hover {
+        background-color: white;
+        color: black;
+      }
+      #title {
+        color: #b8de6f;
+        font-size: 3rem;
+      }
+      #number  {
+        font-size: 4rem;
+        margin-bottom: 3%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 id="title">Roller</h1>
+
+    <h1>Your Number</h1>
+    <!-- connect heading to javascript to show number -->
+    <h1 id="number"> </h1>
+    
+    <!-- connect button + headings to javascript -->
+    <button onclick="change()" > Roll </button>
+    <h1 id="message">...</h1>
+    <h2 id="rolls">..</h2>
+
+
+    <script>
+      var number = document.getElementById("number");
+
+      var message = document.getElementById("message");
+
+      var rolls = document.getElementById("rolls");
+
+      var rollCounter = 0;
+
+      function change(){
+        rollCounter = rollCounter + 1;
+        var randomNumberWithDecimals = Math.random() * 6;
+        var randomNumber =  Math.floor(randomNumberWithDecimals) + 1;
+        number.innerText = randomNumber;
+        
+        if(randomNumber === 1) {
+          message.innerText = "rip";
+        }
+        else if(randomNumber === 2) {
+           message.innerText = "better.. but bad";
+        }
+        else if(randomNumber === 3) {
+          message.innerText = "meh";
+        }
+        else if(randomNumber === 4) {
+           message.innerText = "Not bad";
+        }
+        else if(randomNumber === 5) {
+           message.innerText = "Good";
+        }
+        else {
+          message.innerText = "NICE!";
+        }
+
+        rolls.innerText = "Rolls: " + rollCounter;
+      }
+
+    </script>
+  </body>
+</html>
