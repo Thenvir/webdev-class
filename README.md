@@ -52,10 +52,10 @@
 ## November 4 (Wednesday)
 - JS advanced
   - Date library
-  - String library (str.charAt(i)) 
 - Clock Project
 
 ## November 11 (Wednesday)
+- String library (str.charAt(i)) 
 - JS Local Storage
   - Get data
   - Set data
