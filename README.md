@@ -53,7 +53,7 @@
 - JS advanced
   - Date library
   - String library (str.charAt(i)) 
-- Sentence Counter Project
+- Clock Project
 
 ## November 11 (Wednesday)
 - JS Local Storage
