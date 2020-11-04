@@ -50,20 +50,21 @@
 
 
 ## November 4 (Wednesday)
+- Go over JavaScript Basics ~
+
+## November 11 (Wednesday)
 - JS advanced
   - Date library
 - Clock Project
 
-## November 11 (Wednesday)
+## November 18 (Wednesday)
 - String library (str.charAt(i)) 
 - JS Local Storage
   - Get data
   - Set data
 - Todo List Project
 
-## November 18 (Wednesday)
+## December 2 (Wednesday)
 - Intro to NodeJS + Express
 - Intro to body parser
-
-## December 2 (Wednesday)
 - Project with NodeJS + Express
