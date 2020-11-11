@@ -1,4 +1,4 @@
-# Welcome to my WebDev Class for N2E. This is the Syllabus: 
+# Welcome to my WebDev Class for N2E! This is the Syllabus: 
 
 - Workshops include but not surpass week of Monday, November 30. 
 - No workshops on Thanksgiving week (Monday, November 23 – 27)
@@ -58,7 +58,7 @@
 - Clock Project
 
 ## November 18 (Wednesday)
-- String library (str.charAt(i)) 
+- JS Intervals 
 - JS Local Storage
   - Get data
   - Set data
