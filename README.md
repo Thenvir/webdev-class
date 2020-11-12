@@ -55,10 +55,10 @@
 ## November 11 (Wednesday)
 - JS advanced
   - Date library
+- JS Intervals 
 - Clock Project
 
 ## November 18 (Wednesday)
-- JS Intervals 
 - JS Local Storage
   - Get data
   - Set data
