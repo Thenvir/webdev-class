@@ -62,6 +62,10 @@
 - JS Local Storage
   - Get data
   - Set data
+  - document.createElement()
+  - appendChild()
+  - JSON.stringify()
+  - JSON.parse()
 - Todo List Project
 
 ## December 2 (Wednesday)
