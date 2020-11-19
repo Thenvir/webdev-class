@@ -1,10 +1,8 @@
 var list = document.getElementById("list");
 var userInput = document.getElementById("userInput");
 
-var greeting = "hello";
-
+// console.log in action
 var randomNumber = Math.random() * 6;
-
 console.log(randomNumber);
 
 function addToList() {
